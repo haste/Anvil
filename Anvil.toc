@@ -1,0 +1,8 @@
+## Interface: 30300
+## Title: Anvil
+## Author: Haste
+## Version: 1.0
+## X-eMail: troeks@gmail.com
+## Notes: Automatically attempt to teleport again when the instance is full.
+
+hammer.lua
