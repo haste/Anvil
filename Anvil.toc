@@ -1,7 +1,7 @@
 ## Interface: 30300
 ## Title: Anvil
 ## Author: Haste
-## Version: 1.0
+## Version: 1.1
 ## X-eMail: troeks@gmail.com
 ## SavedVariables: f0537d9559f308b727ca69ce53adc1853a4ba229
 ## Notes: Automatically attempt to teleport again when the instance is full.
