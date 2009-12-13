@@ -3,6 +3,8 @@ local _DISABLED = "Automatic teleport disabled."
 local _RETRY = "Attempting to teleport again in %d |4second:seconds;. Write /anvil to disable."
 local _SET = 'Teleport delay set to: %d |4second:seconds;.'
 
+local base = f0537d9559f308b727ca69ce53adc1853a4ba229 or 5
+
 local print = function(...) return print('|cff33ff99Anvil:|r', ...) end
 local anvil = CreateFrame"Frame"
 anvil:Hide()
@@ -20,7 +22,6 @@ anvil:SetScript("OnEvent", function(self, event, ...)
 end)
 
 local time
-local base = f0537d9559f308b727ca69ce53adc1853a4ba229 or 5
 anvil:SetScript("OnShow", function(self)
 	time = base
 end)
